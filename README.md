@@ -27,11 +27,18 @@ Optional arguments:
                  2
 ```
 
-Try format to CSV with [`csv-write-stream`](https://www.npmjs.org/package/csv-write-stream/).
+Grab some trendy repos!
+
+```
+$ trendgetter 1234567890123456789012345678901234567890
+{"id":28457823,"name":"freeCodeCamp","full_name":"freeCodeCamp/freeCodeCamp","owner" ...
+```
+
+Try format to CSV with [`csv-write-stream`](https://www.npmjs.org/package/csv-write-stream/):
 
 ```
 $ npm i -g csv-write-stream
-$ trendgetter --pages 100 --token 1234567890123456789012345678901234567890 | csv-write > results.csv
+$ trendgetter 1234567890123456789012345678901234567890 | csv-write > results.csv
 ```
 
 ## License
