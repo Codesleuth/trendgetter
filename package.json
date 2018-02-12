@@ -1,0 +1,20 @@
+{
+  "name": "trendgetter",
+  "version": "0.0.1",
+  "description": "Grabs top starred JavaScript repos from the GitHub search API",
+  "main": "trendgetter.js",
+  "bin": {
+    "trendgetter": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["trends", "stars", "github"],
+  "author": "David Wood <david.p.wood@gmail.com> (https://codesleuth.co.uk/)",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
